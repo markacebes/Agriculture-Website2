@@ -1,0 +1,219 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body {
+    font-family: 'poppins', sans-serif;
+    
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 7%;
+    
+}
+.nav-container h1{
+    font-size: 40px;
+    color: #000;
+    font-family: poppins;
+}
+header {
+    background-image: url('./images/pic3.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+header h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #a6c567;
+    margin-bottom: 15px;
+    font-style: italic;
+
+
+}header p{
+    font-size: 25px;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+nav a{
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav ul {
+    list-style-type: none;
+    margin:  0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+}
+nav ul li a{
+    color: #000;
+    display: inline;
+    font-style: italic;
+    transition: color 0.3s ease;
+    border: 9px solid transparent;
+    border-radius: 6px;
+}
+nav ul li a:hover{
+    color: #fff;
+    background-color: #a6c567;
+}
+.about, .services, .contact {
+    padding: 100px 0;
+    text-align: center;
+}
+.services {
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9)), url('./images/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.services h2{
+    margin-bottom: 6rem;
+    font-size: 50px;
+    font-style: italic;
+}
+.services h3{
+    margin-bottom: 2rem;
+    font-size: 30px;
+    font-style: italic;
+    color: #a6c567;
+}
+.service p{
+    color: #bfccda;
+    line-height: 1.5;
+    text-align: center;
+    margin: 2rem;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 23px;
+}
+.service {
+    width: 30%;
+    display: inline-block;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.service img {
+    width: 350px;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    box-shadow: 20px 50px 30px 0 rgba(0, 0, 0, 0.3); 
+}
+#about h2{
+    margin-bottom: 4rem;
+    font-size: 50px;
+    font-style: italic;
+    color: #000;
+}
+#about p{
+    font-size: 25px;
+    font-style: italic;
+    color: #bfccda;
+    font-weight: bolder;
+    text-align: center;
+    margin: 4rem;
+
+}
+#about{
+    line-height: 3rem;
+    padding: 80px 11%;
+}
+#about img{
+    margin-top: 35px;
+ }
+ #contact{
+    padding: 1px 15%;
+    line-height: 3rem;
+ }
+.contact {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.contact p {
+    font-size: 25px;
+    color: #bfccda;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left;
+    font-style: italic;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.contact button[type="submit"]{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 35px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.contact button[type="submit"]:hover {
+    color: #fff;
+    background-color: #a6c567;
+}
+footer {
+    background-color: #a6c567;
+    color:#000;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    margin-top: 120px;
+    bottom: 0;
+    width: 100%;
+}
